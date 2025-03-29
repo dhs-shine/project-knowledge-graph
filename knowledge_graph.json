@@ -1,1 +1,140 @@
-{\n  \"entities\": [\n    {\n      \"type\": \"entity\",\n      \"name\": \"프로젝트A\",\n      \"entityType\": \"Project\",\n      \"observations\": [\n        \"2024년 3월 시작된 웹 개발 프로젝트\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"개발자김철수\",\n      \"entityType\": \"Developer\",\n      \"observations\": [\n        \"백엔드 개발자\",\n        \"Python 전문가\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"개발자김야옹\",\n      \"entityType\": \"Developer\",\n      \"observations\": [\n        \"프론트엔드 개발자\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"프로젝트B\",\n      \"entityType\": \"Project\",\n      \"observations\": [\n        \"개발 프로젝트\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"개발자김멍멍\",\n      \"entityType\": \"Developer\",\n      \"observations\": [\n        \"프로젝트B 개발자\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"개발자김냐옹\",\n      \"entityType\": \"Developer\",\n      \"observations\": [\n        \"프로젝트B 개발자\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"프로젝트C\",\n      \"entityType\": \"Project\",\n      \"observations\": [\n        \"신규 개발 프로젝트\",\n        \"모든 개발자가 참여하는 프로젝트\"\n      ]\n    },\n    {\n      \"type\": \"entity\",\n      \"name\": \"GitHub저장소\",\n      \"entityType\": \"Repository\",\n      \"observations\": [\n        \"project-knowledge-graph 저장소\",\n        \"지식 그래프 저장소\",\n        \"owner: dhs-shine\"\n      ]\n    }\n  ],\n  \"relations\": [\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김철수\",\n      \"to\": \"프로젝트A\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김야옹\",\n      \"to\": \"프로젝트A\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김멍멍\",\n      \"to\": \"프로젝트B\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김냐옹\",\n      \"to\": \"프로젝트B\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김철수\",\n      \"to\": \"프로젝트C\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김야옹\",\n      \"to\": \"프로젝트C\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김멍멍\",\n      \"to\": \"프로젝트C\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"개발자김냐옹\",\n      \"to\": \"프로젝트C\",\n      \"relationType\": \"참여하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"GitHub저장소\",\n      \"to\": \"프로젝트A\",\n      \"relationType\": \"관리하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"GitHub저장소\",\n      \"to\": \"프로젝트B\",\n      \"relationType\": \"관리하다\"\n    },\n    {\n      \"type\": \"relation\",\n      \"from\": \"GitHub저장소\",\n      \"to\": \"프로젝트C\",\n      \"relationType\": \"관리하다\"\n    }\n  ]\n}
+{
+  "entities": [
+    {
+      "type": "entity",
+      "name": "프로젝트A",
+      "entityType": "Project",
+      "observations": [
+        "2024년 3월 시작된 웹 개발 프로젝트"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "개발자김철수",
+      "entityType": "Developer",
+      "observations": [
+        "백엔드 개발자",
+        "Python 전문가"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "개발자김야옹",
+      "entityType": "Developer",
+      "observations": [
+        "프론트엔드 개발자"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "프로젝트B",
+      "entityType": "Project",
+      "observations": [
+        "개발 프로젝트"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "개발자김멍멍",
+      "entityType": "Developer",
+      "observations": [
+        "프로젝트B 개발자"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "개발자김냐옹",
+      "entityType": "Developer",
+      "observations": [
+        "프로젝트B 개발자"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "프로젝트C",
+      "entityType": "Project",
+      "observations": [
+        "신규 개발 프로젝트",
+        "모든 개발자가 참여하는 프로젝트"
+      ]
+    },
+    {
+      "type": "entity",
+      "name": "GitHub저장소",
+      "entityType": "Repository",
+      "observations": [
+        "project-knowledge-graph 저장소",
+        "지식 그래프 저장소",
+        "owner: dhs-shine"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "relation",
+      "from": "개발자김철수",
+      "to": "프로젝트A",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김야옹",
+      "to": "프로젝트A",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김멍멍",
+      "to": "프로젝트B",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김냐옹",
+      "to": "프로젝트B",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김철수",
+      "to": "프로젝트C",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김야옹",
+      "to": "프로젝트C",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김멍멍",
+      "to": "프로젝트C",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김냐옹",
+      "to": "프로젝트C",
+      "relationType": "참여하다"
+    },
+    {
+      "type": "relation",
+      "from": "GitHub저장소",
+      "to": "프로젝트A",
+      "relationType": "관리하다"
+    },
+    {
+      "type": "relation",
+      "from": "GitHub저장소",
+      "to": "프로젝트B",
+      "relationType": "관리하다"
+    },
+    {
+      "type": "relation",
+      "from": "GitHub저장소",
+      "to": "프로젝트C",
+      "relationType": "관리하다"
+    }
+  ]
+}
