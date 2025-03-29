@@ -143,6 +143,18 @@
       "from": "GitHub저장소",
       "to": "프로젝트C",
       "relationType": "관리하다"
+    },
+    {
+      "type": "relation",
+      "from": "GitHub저장소",
+      "to": "프로젝트D",
+      "relationType": "관리하다"
+    },
+    {
+      "type": "relation",
+      "from": "개발자김야옹",
+      "to": "프로젝트D",
+      "relationType": "참여하다"
     }
   ]
 }
