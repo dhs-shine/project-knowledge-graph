@@ -67,6 +67,14 @@
         "지식 그래프 저장소",
         "owner: dhs-shine"
       ]
+    },
+    {
+      "type": "entity",
+      "name": "프로젝트D",
+      "entityType": "Project",
+      "observations": [
+        "신규 추가된 프로젝트"
+      ]
     }
   ],
   "relations": [
